@@ -1,0 +1,37 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+h1, p{
+    text-align: center;
+}
+
+#grade{
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    margin: auto;
+}
+
+#pontos{
+    color: blue;
+
+}
+
+.pontoss{
+    font-size: 30px;
+}
+
+img{
+    width: 130px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+img:hover{
+    border: 2px solid yellow;
+}
